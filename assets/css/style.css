@@ -1,0 +1,171 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo1-left > img { 
+    width: 5px;
+    height: 5px;
+}
+
+/* main {
+    width: 1000px;
+} */
+
+.navi{
+    display: flex;
+}
+
+.navi > li {
+    list-style: none;
+    border: 2px solid #DA7297;
+    border-radius: 8px;
+    background: #DA7297;
+    margin: 10px;
+}
+
+.navi > li:hover {
+    color: #fff;
+    background: #667BC6;
+    border: 2px solid #667BC6;
+  }
+
+
+
+.navi > li > a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+}
+
+/* .link1 {
+    border: 2px solid #DA7297;
+    border-radius: 0;
+    background: #DA7297;
+    margin: 10px;
+  } */
+  
+/* .link1:hover {
+    color: #fff;
+    background: #000;
+  } */
+
+.section0 {
+    position: relative;
+}
+
+.section0 p {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.section0 img {
+    width: 100%;
+    border-radius: ;
+}
+
+
+
+.section1 {
+    height: 100%;
+    width: 100%;
+}
+
+/* .section1 > img {
+  width: 1000px;
+} */
+
+
+
+.section2-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+}
+
+
+.navi2 > li {
+    list-style: none;
+}
+
+
+
+
+.section3-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+}
+
+
+.navi3 > li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+.navi-last{
+    display: flex;
+}
+
+.navi-last > li {
+    list-style: none;
+    border: 2px solid #DA7297;
+    border-radius: 8px;
+    background: #DA7297;
+    margin: 10px;
+}
+
+.navi-last > li:hover {
+    color: #fff;
+    background: #667BC6;
+    border: 2px solid #667BC6;
+  }
+
+.navi-last > li > a {
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+}
+
+.sns {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sns > li {
+    display: inline-block;
+    padding: 1%;
+}
+
+.sns > li:hover {
+    animation: shake .5s;
+}
+
+@keyframes shake {
+    0%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    40%{transform: rotate(15deg);}
+    60%{transform: rotate(-15deg);}
+    80%{transform: rotate(15deg);}
+}
+
+
