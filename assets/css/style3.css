@@ -1,0 +1,182 @@
+.header1 {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    margin: 0 5%;
+}
+
+@media screen and (max-width: 780px) {
+  .header1 {
+    padding: 0 30%;
+}}
+
+.logo1-left > img { 
+    width: 5px;
+}
+
+@media screen and (max-width: 780px) {
+  .rogo1-left {
+     display: none !important
+  }}
+
+.navi{
+  display: flex;
+}
+
+.navi > li {
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: #DA7297;
+    margin: 5px;
+}
+
+.navi > li:hover {
+    color: #fff;
+    background: #667BC6;
+    border: 2px solid #FFF;
+  }
+
+.navi > li > a {
+    font-size: 100%;
+    text-decoration: none;
+    margin: 25px;
+    padding: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 780px) {
+  .navi > li > a {
+    font-size: 50%;
+    margin: 2px;
+    padding: 8px;
+    color: white;
+}}
+
+.section2 {
+  background-color: #FDFFD2;
+  height: 50%;
+  border-radius: 50px;
+	clip-path: path("M0 128Q0 96 32 96Q96 96 96 32Q96 0 128 0H10000V100000H0Z");
+  margin: 0 5%;
+  padding: 1% 0;
+  background-color: #FDFFD2;
+  overflow: hidden;
+  width: 90%;
+}
+
+@media screen and (max-width: 780px) {
+  .section2 {
+    height: 1000px;
+    border-radius: 10px;
+    clip-path: none;
+    margin: 10% 2.5%;
+    padding: 5% 0;
+    width: 95%;
+  }}
+
+.section2-2 {
+  padding: 20px;
+}
+
+.section2-2 h1 {
+  text-align: left;
+  margin: 0;
+  color: #999;
+  font-size: 400%;
+  height: 100%;
+  background: linear-gradient(transparent 90%, #FFB4C2 40%);
+  
+}
+
+@media screen and (max-width: 780px) {
+  .section2-2 h1 {
+    margin: 0;
+    color: #999;
+    font-size: 150%;
+    background: linear-gradient(transparent 90%, #FFB4C2 40%);
+  }
+  .section2-2 h2 {
+    font-size: 100%; 
+}}
+
+.section2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 780px) {
+  .section2-1 {
+    flex-direction: column;
+    height: 100%;
+
+}}
+
+.section2-coment {
+  padding: 0;
+  list-style: none;
+  font-size: 100%;
+  height: 100%;
+  line-height: 50px
+}
+
+@media screen and (max-width: 780px) {
+  .section2-coment {
+    line-height: 30px;
+    font-size: 80%;
+    margin: 0;
+  }}
+
+
+#box-003 img {
+  transition: 0.3s ease;
+  width: 35vw;
+  border-radius: 50px;
+  margin: 5% 0;
+}
+
+@media screen and (max-width: 780px) {
+  #box-003 img {
+    width: 60vw;
+    border-radius: 10px;
+    margin: 5% 0;
+  }}
+
+
+#box-003 img:hover {
+  filter: blur(3px);
+  transition: 0.3s ease;
+}
+
+#box-003::after {
+  width: 60%;
+  content: "we need your personality !";
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 780px) {
+  #box-003::after {
+    width: 60%;
+    top: 32%;
+    left: 55%;
+    font-size: 20px;
+  }}
+
+#box-003:hover::after {
+  opacity: 1;
+}

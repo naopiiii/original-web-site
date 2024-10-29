@@ -1,20 +1,33 @@
 .header1 {
-    width: 98%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 1;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  margin: 0 5%;
 }
 
+@media screen and (max-width: 780px) {
+  .header1 {
+    padding: 0 40%;
+}}
+
 .logo1-left > img { 
-    width: 5px;
+  width: 5px;
 }
+
+@media screen and (max-width: 780px) {
+  .rogo1-left {
+     display: none !important
+  }}
 
 .navi{
   display: flex;
 }
+
+
 
 .navi > li {
     list-style: none;
@@ -38,35 +51,108 @@
     color: white;
 }
 
+@media screen and (max-width: 780px) {
+  .navi > li > a {
+    font-size: 50%;
+    margin: 2px;
+    padding: 8px;
+    color: white;
+}}
+
+
+
+/* About Us */
+
+.section2 {
+  background-color: #FFB4C2;
+  height: auto;
+  border-radius: 50px;
+  clip-path: path("M0 128Q0 96 32 96Q96 96 96 32Q96 0 128 0H10000V100000H0Z");
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
+}
+@media screen and (max-width: 780px) {
   .section2 {
-    background-color: #FFB4C2;
-    height: 100%;
-    border-radius: 50px;
-      clip-path: path("M0 128Q0 96 32 96Q96 96 96 32Q96 0 128 0H10000V100000H0Z");
-    margin: 150px 0;
-  }
-  
-  .section2-2 {
-    padding: 20px;
-  }
-  
-  .section2-2 h1 {
-    text-align: left;
-    margin: 0;
-    color: #999;
-    font-size: 400%;
-    height: 100%;
-    background: linear-gradient(transparent 90%, #FDFFD2 40%);
-    
-  }
-  
+    height: 650px;
+    border-radius: 10px;
+    clip-path: none;
+    margin: 10% 2.5%;
+    padding: 5% 0;
+    width: 95%;
+  }}
+
+
   .section2-1 {
     display: flex;
-    justify-content: center;
     height: 100%;
     padding: 0;
     margin: 0;
+    width: 100%;
   }
+
+  @media screen and (max-width: 780px) {
+    .section2-1 {
+      flex-direction: column;
+      height: 100%;
   
+  }}
   
+  .section2-2 {
+    padding: 0 5%;
+  }
+
+  .coment {
+    line-height: 50px
+  }
+
+  @media screen and (max-width: 780px) {
+    .coment {
+      line-height: 30px;
+      font-size: 80%;
+    }}
   
+  .section2-2 h1 {
+    text-align: left;
+    margin: 0 80px;
+    color: #999;
+    font-size: 400%;
+    height: 100%;
+    background: linear-gradient(transparent 90%, #FDFFD2 40%); 
+  }
+  @media screen and (max-width: 780px) {
+    .section2-2 h1 {
+      margin: 0;
+      color: #999;
+      font-size: 150%;
+      background: linear-gradient(transparent 90%, #FDFFD2 40%);
+    }
+    .section2-2 h2 {
+      display: none;
+  }}
+  
+
+/* .section2-coment {
+  margin: 100px 0;
+} */
+  
+.picture2 img {
+  position: absolute;
+  opacity: 0;
+  transition: all 2s ease;
+  width: 35vw;
+  border-radius: 50px;
+  margin: 5% 0;
+}
+    
+.picture2 img.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .picture2 img {
+    width: 60vw;
+    border-radius: 10px;
+    margin: 5% 15%;
+  }}
+

@@ -7,4 +7,5 @@ function changeImage() {
   images[number].classList.add('active');
 }
 
-setInterval(changeImage, 4000); 
+setInterval(changeImage, 2000
+); 
