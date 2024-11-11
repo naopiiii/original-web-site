@@ -156,3 +156,156 @@
     margin: 5% 15%;
   }}
 
+  footer {
+    text-align: center;
+    background-color: #667BC6;
+    color: white;
+    padding: 0;
+    font-size: 100%;
+    margin: 5% 0 0 0;
+  }
+  
+  @media screen and (max-width: 780px) {
+    footer {
+      font-size: 10px;
+      border-radius: 10px;
+      width: 95%;
+      margin: 0 2.5%;
+    }
+  }
+  
+  
+  .section4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10% 0 5%;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .section4 {
+      flex-direction: column;
+      align-items: center;
+      padding: 5% 0;
+      
+    }  
+  }
+  
+  .section4 img {
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .section4 img {
+      width: 30%;
+      margin: 5%;
+    }
+  }
+  
+  .section4-1 {
+    display: flex;
+  }
+  
+  .address {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 2%;
+    width: 200px;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .address {
+      margin: 0;
+    }
+  }
+  
+  .sns {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 10%;  
+  }
+  
+  
+  @media screen and (max-width: 780px) {
+    .link5 {
+      text-align: center;
+  
+    }
+    .sns {
+      padding: 10% 0;
+      flex-direction: column;
+  }}
+  
+  .sns > li {
+      display: inline-block;
+      padding: 5% 30% 5% 0;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .sns > li {
+      width: 100%;
+  }}
+  
+  .sns > li:hover {
+      animation: shake .5s;
+  }
+  
+  @keyframes shake {
+      0%{transform: rotate(15deg);}
+      20%{transform: rotate(-15deg);}
+      40%{transform: rotate(15deg);}
+      60%{transform: rotate(-15deg);}
+      80%{transform: rotate(15deg);}
+  }
+  
+  .navi-end{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0 18%;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .navi-end{
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+  }
+  .navi-end > li {
+      list-style: none;
+      border: 1px solid #fff;
+      border-radius: 50px;
+      background: #DA7297;
+      margin: 5px;
+  }
+  
+  .navi-end > li:hover {
+      color: #fff;
+      background: #667BC6;
+      border: 2px solid #FFF;
+    }
+  
+  
+  
+  .navi-end > li > a {
+      font-size: 100%;
+      text-decoration: none;
+      margin: 25px;
+      padding: 20px;
+      color: white;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .navi-end > li > a {
+      font-size: 100%;
+      text-decoration: none;
+      margin: 0;
+      padding: 20px;
+      color: white;
+  }
+  
+  }
+  
+  
+
