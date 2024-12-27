@@ -42,7 +42,7 @@
 
 .navi > li {
     list-style: none;
-    border: 1px solid #fff;
+    outline: 1px solid #fff;
     border-radius: 50px;
     background: #DA7297;
     margin: 5px;
@@ -51,7 +51,7 @@
 @media screen and (max-width: 780px) {
   .navi > li {
     list-style: none;
-    border: 1px solid #fff;
+    outline: 1px solid #fff;
     border-radius: 50px;
     background: #DA7297;
     margin:2px;
@@ -62,7 +62,7 @@
 .navi > li:hover {
     color: #fff;
     background: #667BC6;
-    border: 2px solid #FFF;
+    outline: 2px solid #FFF;
   }
 
 
@@ -382,7 +382,7 @@
 
 .navi2 > li {
   list-style: none;
-  border: 1% solid #fff;
+  outline: 1% solid #fff;
   border-radius: 50px;
   background:  #667BC6;
   margin: 20px 0;
@@ -391,7 +391,7 @@
 .navi2 > li:hover {
   color: #fff;
   background: #DA7297;
-  border: 2px solid #FFF;
+  outline: 2px solid #FFF;
 }
 
 
@@ -541,7 +541,7 @@
 
 .navi3 > li {
   list-style: none;
-  border: 1% solid #fff;
+  outline: 1% solid #fff;
   border-radius: 50px;
   background:  #667BC6;
   margin: 20px 0;
@@ -550,7 +550,7 @@
 .navi3 > li:hover {
   color: #fff;
   background: #DA7297;
-  border: 2px solid #FFF;
+  outline: 2px solid #FFF;
 }
 
 
@@ -693,7 +693,7 @@ footer {
 }
 .navi-end > li {
     list-style: none;
-    border: 1px solid #fff;
+    outline: 1px solid #fff;
     border-radius: 50px;
     background: #DA7297;
     margin: 5px;
@@ -702,7 +702,7 @@ footer {
 .navi-end > li:hover {
     color: #fff;
     background: #667BC6;
-    border: 2px solid #FFF;
+    outline: 2px solid #FFF;
   }
 
 
